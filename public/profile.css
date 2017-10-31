@@ -1,0 +1,157 @@
+body {
+  background-color: green;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.navbar {
+  background: linear-gradient(0deg, black, #191816);
+}
+
+.navbar, a{
+  background-color: none;
+  color: #EEF1F5;
+}
+
+.logo-img{
+  width: 15vw;
+}
+
+.btn-outline-light {
+  color: #EEF1F5;
+  border-color: #EEF1F5;
+}
+
+.closeform{
+  margin: 0;
+}
+
+.btn-success {
+  background-color: #8D3300;
+  border-color: #8D3300;
+}
+
+.btn-success:hover {
+  background-color: #5A2100;
+  border-color: #5A2100;
+}
+
+.textTitle {
+font-weight: 900;
+font-size: 150%;
+}
+
+/* scroll bar */
+/*.scrollbar {
+    background-color: white;
+    float: left;
+    height: 70%;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+#style-13::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+#style-13::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(213, 92, 90);
+
+}*/
+
+/*end of scrollbar*/
+
+/*#ticket-container{
+  display: flex;
+  flex-direction: row;
+}*/
+
+/*#ticket-selection{
+  overflow: scroll;
+  height: 600px;
+}*/
+
+#mytickets {
+  width: 35rem;
+  height: auto;
+  position: absolute;
+  left: 30vw;
+  top: 15vh;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+#addticketform {
+  display:none;
+  width: 45rem;
+  position: absolute;
+  left: 30vw;
+  top: 35vh;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+#addticketform{
+  height: auto;
+}
+
+/*.wholePageDim{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+#addticketform{
+  background-color: white;
+  padding: 50px;
+}
+
+
+#searchFormatting div {
+  background-color: white;
+  color: #191816;
+  line-height: 50%;
+  padding: 15px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+#map {
+  height: 600px;
+  width: 846px;
+}
+
+#foot-nav {
+  background: linear-gradient(0deg, #191816, black);
+}
+
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  body {
+    background-color: black;
+
+  }
+}
